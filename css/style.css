@@ -1,6 +1,119 @@
 body {
-  font: normal 15px "Source Sans Pro", sans-serif;
+  font: 400 15px "Source Sans Pro", sans-serif;
+}
+h2 {
+  font-weight: bold;
+  font-size: 24px
+}
+span {
+  font-size: 20px;
+  font-weight: 300;
+}
+a {
+  text-decoration: none;
+}
+/* Navbar */
+.navbar {
+  margin-bottom: 0;
 }
 .navbar .navbar-toggle .icon-bar {
   background-color: black;
+}
+.navbar .container {
+  margin-top: -1px;
+  border-top: 3px solid #fdbd1f;
+}
+.navbar-brand {
+  width: 200px;
+}
+.navbar-brand a {
+  text-decoration: none;
+}
+.navbar-brand img {
+  float: left;
+  margin-top: 5px;
+}
+.brand-text {
+  margin-left: 35px;
+}
+.brand-text span{
+  font-size: 19px;
+  font-weight: bold;
+  color: #9e8e92;
+}
+.brand-text p {
+  font-size: 15px;
+  font-weight: 300;
+  color: #9e8e92;
+}
+.nav {
+}
+.nav a {
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+  color: #9e8e92;
+}
+
+.navbar-nav > li > a:hover, .navbar-nav > li:hover, .navbar-nav > li > a:focus, .navbar-nav > li.active {
+  background-color: #fdbd1f;
+  color: #fff;
+}
+.navbar-nav > li.active a {
+  color: #fff;
+}
+.navbar-nav > li {
+  padding: 15px 5px;
+}
+
+/* header */
+
+header {
+  height: 440px;
+  background: url(/img/header-bg.jpg) center;
+}
+header h1, header h2 {
+  padding: 10px 7px;
+  margin: 0px auto;
+  max-width: 430px;
+  color: #fff;
+  background: #ab6f80;
+  font-weight: bold;
+}
+header h1 {
+  margin: 130px auto 2px;
+  max-width: 230px;
+}
+header .col-md-12 {
+  text-align: center;
+}
+
+/* Main title */
+
+.main-title {
+  background-color: #fdbd1f;
+  color: #fff;
+}
+.main-title .col-md-12 {
+  text-align: center;
+  height: 270px;
+  padding: 50px 0;
+}
+.main-title p {
+  margin: 0 auto;
+  max-width: 570px;
+  font-size: 20px;
+  font-weight: 300;
+}
+.buttonn {
+  font-size: 20px;
+  text-decoration: none;
+  color: #fdbd1f;
+  background: #ab6f80;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  margin-top: 20px;
 }
