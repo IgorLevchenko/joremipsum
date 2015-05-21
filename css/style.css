@@ -1,3 +1,6 @@
 body {
   font: normal 15px "Source Sans Pro", sans-serif;
 }
+.navbar .navbar-toggle .icon-bar {
+  background-color: black;
+}
