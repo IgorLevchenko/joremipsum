@@ -9,7 +9,7 @@ span {
   font-size: 20px;
   font-weight: 300;
 }
-a {
+a:hover {
   text-decoration: none;
 }
 /* Navbar */
@@ -98,22 +98,155 @@ header .col-md-12 {
 .main-title .col-md-12 {
   text-align: center;
   height: 270px;
-  padding: 50px 0;
+  padding: 40px 0;
 }
 .main-title p {
-  margin: 0 auto;
+  margin: 0 auto 20px;
   max-width: 570px;
   font-size: 20px;
   font-weight: 300;
+
 }
 .buttonn {
   font-size: 20px;
-  text-decoration: none;
   color: #fdbd1f;
   background: #ab6f80;
   padding: 10px;
   border-radius: 5px;
   font-weight: bold;
   border: none;
-  margin-top: 20px;
+}
+.buttonn:hover {
+  color: #fdbd1f;
+}
+
+/*************************************** 
+               row1
+***************************************/
+.row1 {
+  padding: 50px;
+}
+.row1-bg {
+  height: 90px;
+  background-image: url(/img/row1-icons.png);
+  margin-top: 30px;
+}
+.rocket {
+  background-position: 0 0;
+}
+.micro {
+  background-position: -250px;
+}
+
+.row1 h2 {
+  color: #ab6f80;
+}
+.row1 span {
+  color: #fdbd1f;
+}
+.row1 p {
+  color: #978489;
+  margin: 10px 0 20px;
+}
+.more {
+  color: #fff;
+  background: #fdbd1f;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/*************************************** 
+               row2
+***************************************/
+
+.row2 {
+  background: #ab6f80;
+  padding: 60px;
+}
+.row2 .col-md-4 {
+  height: 231px;
+  background: url(/img/row2-icon.png) center no-repeat;
+}
+.row2 h2 {
+  color: #fff;
+}
+.row2 span {
+  color: #fff;
+}
+.row2 p {
+  color: #fdbd1f;
+  margin: 10px 0 20px;
+}
+.row2 .more {
+  background: #fff;
+  color: #ab6f80;
+}
+
+/*************************************** 
+               row3
+***************************************/
+
+.row3 {
+  padding: 50px;
+}
+.row3 h2 {
+  color: #ab6f80;
+}
+.row3 span {
+  color: #fdbd1f;
+}
+.row3 p {
+  color: #ab6f80;
+  margin: 10px 0 20px;
+}
+.r3-content {
+  max-width: 715px;
+}
+
+.item {
+  text-align: center;
+  margin: 0 auto;
+}
+.item img {
+  border-radius: 8px;
+  margin: 0 auto;
+}
+.carousel-inner {
+  text-align: center;
+}
+#carousel .carousel-control {
+  width: 32px;
+  height: 32px;
+  top: 50%;
+  background: #fff;
+  border-radius: 50%;
+}
+#carousel .left {
+  left: 100px;
+}
+#carousel .right {
+  right: 100px;
+}
+.arrow {
+  display: block;
+  width: 32px;
+  height: 32px;
+  background: url(/img/slider-arrows.png);
+}
+.right .arrow {
+  background-position: 32px 0;
+}
+
+
+
+footer {
+  padding: 30px;
+  background: #f0f0f0;
+  text-align: center;
+  color: #ab6f80;
+}
+footer span {
+  font-size: 15px;
 }
