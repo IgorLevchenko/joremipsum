@@ -128,17 +128,13 @@ header .col-md-12 {
 .row1 {
   padding: 50px;
 }
-.row1-bg {
-  height: 90px;
-  background: url(../img/row1-icons.png) no-repeat;
-  margin-top: 30px;
+.r1-img {
+  text-align: center;
 }
-.rocket {
-  background-position: 0 0;
+.r1-img img {
+  margin-top: 20px;
 }
-.micro {
-  background-position: -250px;
-}
+
 
 .row1 h2 {
   color: #ab6f80;
@@ -167,9 +163,8 @@ header .col-md-12 {
   background: #ab6f80;
   padding: 60px;
 }
-.row2 .col-md-4 {
-  height: 231px;
-  background: url(../img/row2-icon.png) center no-repeat;
+.r2-img {
+  text-align: center;
 }
 .row2 h2 {
   color: #fff;
@@ -184,6 +179,9 @@ header .col-md-12 {
 .row2 .more {
   background: #fff;
   color: #ab6f80;
+}
+.row2 .more:hover {
+  color: #fdbd1f;
 }
 
 /*************************************** 
